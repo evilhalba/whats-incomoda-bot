@@ -1,0 +1,18 @@
+2023/04/07-16:29:26.067 a703 Creating DB /Users/eduardo/Documents/PROJETOS/whats incomodar/tokens/sessaoteste/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/04/07-16:29:26.078 a703 Reusing MANIFEST /Users/eduardo/Documents/PROJETOS/whats incomodar/tokens/sessaoteste/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/07-16:29:26.104 9c03 Level-0 table #5: started
+2023/04/07-16:29:26.115 9c03 Level-0 table #5: 7376 bytes OK
+2023/04/07-16:29:26.123 9c03 Delete type=0 #3
+2023/04/07-16:29:26.124 9c03 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/04/07-16:30:24.412 a703 Level-0 table #7: started
+2023/04/07-16:30:24.434 a703 Level-0 table #7: 1017124 bytes OK
+2023/04/07-16:30:24.458 a703 Delete type=0 #4
+2023/04/07-16:30:25.195 9c03 Level-0 table #9: started
+2023/04/07-16:30:25.211 9c03 Level-0 table #9: 1358478 bytes OK
+2023/04/07-16:30:25.217 9c03 Delete type=0 #6
+2023/04/07-16:30:25.219 a703 Compacting 1@0 + 1@1 files
+2023/04/07-16:30:25.247 a703 Generated table #10@0: 40584 keys, 1726530 bytes
+2023/04/07-16:30:25.247 a703 Compacted 1@0 + 1@1 files => 1726530 bytes
+2023/04/07-16:30:25.255 a703 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/07-16:30:25.255 a703 Delete type=2 #7
+2023/04/07-16:30:25.255 a703 Delete type=2 #9
