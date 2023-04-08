@@ -39,12 +39,12 @@ venom
     while(naoAcaba === 1){
     for(var i = 0; i < 3; i++){
       
-    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
-    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
-    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
-    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
-    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
-    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage()}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage()}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage()}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage()}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage()}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage()}, conseguiu ver o contrato?`);
     await delay(600000);
   }
   }
