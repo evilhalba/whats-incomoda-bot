@@ -39,12 +39,12 @@ venom
     while(naoAcaba === 1){
     for(var i = 0; i < 3; i++){
       
-    extclient.sendText("5555984429743@c.us", "Boa Tarde, conseguiu ver o contrato?");
-    extclient.sendText("5555984429743@c.us", "Boa Tarde, conseguiu ver o contrato?");
-    extclient.sendText("5555984429743@c.us", "Boa Tarde, conseguiu ver o contrato?");
-    extclient.sendText("5555984429743@c.us", "Boa Tarde, conseguiu ver o contrato?");
-    extclient.sendText("5555984429743@c.us", "Boa Tarde, conseguiu ver o contrato?");
-    extclient.sendText("5555984429743@c.us", "Boa Tarde, conseguiu ver o contrato?");
+    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
+    extclient.sendText("5555984429743@c.us", `${greetingMessage}, conseguiu ver o contrato?`);
     await delay(600000);
   }
   }
@@ -54,3 +54,12 @@ venom
   function delay(time) {
     return new Promise(resolve => setTimeout(resolve, time));
   } 
+
+  const greetingMessage = () => {
+    //let h = new Date().toLocaleTimeString('pt-BR', { hour: 'numeric', hour12: false });
+    let h = new Date().getHours();
+    if (h <= 5) return 'Boa madrugada';
+    if (h < 12) return 'Bom dia';
+    if (h < 18) return 'Boa tarde';
+    return 'Boa noite';
+  }
